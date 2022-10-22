@@ -70,7 +70,6 @@ header {
   .header {
     height: 68vh;
   }
-
 }
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
@@ -84,4 +83,3 @@ header {
     display: none;
   }
 }
-

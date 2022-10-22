@@ -1,15 +1,19 @@
 import React from 'react';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/cv-ev.pdf';
 
 function CTA() {
   return (
     <div className="cta">
       <a href={CV} download className="btn">
+        Download CV <br /> <small>(English Version)</small>
+      </a>
+      <a href={CV} download className="btn">
         Download CV
+        <br /> <small>(Portuguese Version)</small>
       </a>
-      <a href="#contact" className="btn btn-primary">
-        Lets talk!
-      </a>
+      <div className="btn">
+        <a href="#contact">Lets talk!</a>
+      </div>
     </div>
   );
 }
