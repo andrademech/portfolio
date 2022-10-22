@@ -34,13 +34,17 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://instagram.com">
+        <a href="https://instagram.com" target="_blank" rel="noreferrer">
           <BsInstagram />
         </a>
-        <a href="https://linkedin.com">
+        <a
+          href="https://www.linkedin.com/in/herberth-andrade-759b10127/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsLinkedin />
         </a>
-        <a href="https://twitter.com">
+        <a href="https://twitter.com" target="_blank" rel="noreferrer">
           <BsTwitter />
         </a>
       </div>

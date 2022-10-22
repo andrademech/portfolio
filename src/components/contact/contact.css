@@ -18,6 +18,7 @@
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
+  min-width: auto;
 }
 
 .contact__option:hover {
@@ -56,7 +57,7 @@ input, textarea {
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1560px){
   .container.contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;
