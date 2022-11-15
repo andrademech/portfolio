@@ -6,14 +6,14 @@ function CTA() {
   return (
     <div className="cta">
       <a href={CV} download className="btn">
-        Download CV <br /> <small>(English Version)</small>
+        Download CV <br /> <small>(EN-US version)</small>
       </a>
       <a href={CVP} download className="btn">
         Download CV
-        <br /> <small>(Portuguese Version)</small>
+        <br /> <small>(PT-BR version)</small>
       </a>
-      <div className="btn">
-        <a href="#contact">Lets talk!</a>
+      <div className="lets__talk">
+        <a href="#contact">Lets talk?</a>
       </div>
     </div>
   );
